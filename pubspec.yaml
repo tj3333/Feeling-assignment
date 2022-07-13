@@ -1,0 +1,44 @@
+name: tejas_s_application1
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.5
+  connectivity_plus: ^2.3.5
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.0
+  freezed_annotation: ^2.0.3
+  build_runner: ^2.1.11
+  freezed: ^2.0.4
+  chopper: ^4.0.6
+  intl: any
+  url_launcher: ^6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+  build_runner:
+  freezed: any
+  json_serializable: any
+  lint: any
+  chopper_generator: ^4.0.6
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/
+     - assets/images/
